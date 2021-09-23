@@ -43,6 +43,7 @@
     height: 100vh;
     min-height: 500px;
     padding-top: 50px;
+    font-size: 32px;
  }
 
  #resume {
@@ -56,6 +57,7 @@
     min-height: 500px;
     padding-top: 50px; 
  }
+
 /*
  * CLASS
  */
@@ -65,6 +67,9 @@
   text-orientation: upright;  
  }
 
+ .icons {
+   font-size: 60px;
+ }
  .social-icons {
   writing-mode: vertical-rl;
   text-orientation: mixed;
@@ -93,6 +98,13 @@
   margin-left: 1rem;
 }
 
+ .html5 a:hover {
+  width: 120px;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
 /*
  * ELEMENTS
  */
@@ -100,3 +112,4 @@
  body {
    background-color: white;
  }
+ 
