@@ -1,0 +1,102 @@
+
+
+/*
+ * IDS
+ */
+ 
+ #header {
+  background-color: #282a36;
+  text-align: center;
+ }
+
+
+ #home {
+  background-color: #282a36;
+  text-align: center;
+  padding-top: 30%;
+  height: 100vh;
+  min-height: 500px;
+ }
+
+ #about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 100vh;
+  min-height: 500px;
+  padding-top: 50px;
+ }
+
+ #experience {
+    height: 100vh;
+    min-height: 500px;
+    padding-top: 50px;
+ }
+
+ #education {
+    height: 100vh;
+    min-height: 500px;
+    padding-top: 50px;
+ }
+
+ #skills {
+    height: 100vh;
+    min-height: 500px;
+    padding-top: 50px;
+ }
+
+ #resume {
+    height: 100vh;
+    min-height: 500px;
+    padding-top: 50px;
+ }
+
+ #portfolio {
+    height: 100vh;
+    min-height: 500px;
+    padding-top: 50px; 
+ }
+/*
+ * CLASS
+ */
+
+ .aside-one {
+  writing-mode: vertical-rl;
+  text-orientation: upright;  
+ }
+
+ .social-icons {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 28px;
+ }
+
+.main-about {
+  margin: auto 0;
+  font-size: 48px;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+/*
+ * ELEMENTS
+ */
+
+ body {
+   background-color: white;
+ }
