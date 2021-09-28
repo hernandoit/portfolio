@@ -9,13 +9,13 @@
   text-align: center;
  }
 
-
+/* PAGE SECTIONS */
  #home {
   background-color: #282a36;
   text-align: center;
   padding-top: 30%;
   height: 100vh;
-  min-height: 500px;
+  min-height: 600px;
  }
 
  #about {
@@ -57,6 +57,69 @@
     min-height: 500px;
     padding-top: 50px; 
  }
+
+ #hola {
+   color: #ff5555; 
+   font-size: 48px;
+   /* TOOL TIP STYLING */
+   position: relative;
+   display: inline-block;
+   border-bottom: 1px dotted #ff5555;
+ }
+
+/* TOOL TIP FOR HOME PAGE OLA */
+#hola .tooltiphola {
+  visibility: hidden;
+  width: 300px;
+  background-color: whitesmoke;
+  color: #282a36;
+  text-align: left;
+  border-radius: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+#hola:hover .tooltiphola {
+  visibility: visible;
+}
+
+ #mundo {
+   color: #50fa7b; 
+   font-size: 48px;
+   /* TOOL TIP STYLING */
+   position: relative;
+   display: inline-block;
+   border-bottom: 1px dotted #50fa7b; 
+;
+ }
+
+/* TOOL TIP FOR HOME PAGE OLA */
+#mundo .tooltipmundo {
+  visibility: hidden;
+  width: 300px;
+  background-color: whitesmoke;
+  color: #282a36;
+  text-align: left;
+  border-radius: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+#mundo:hover .tooltipmundo {
+  visibility: visible;
+}
 
 /*
  * CLASS
@@ -104,6 +167,14 @@
   left: 50%;
   margin-left: -60px;
 }
+/* fix justify content  */
+.home-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+/* TOOL TIP FOR HOME PAGE */
+
 
 /*
  * ELEMENTS
