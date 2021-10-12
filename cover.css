@@ -20,9 +20,10 @@
  }
 
  #about {
+  background-color: #282a36;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   height: 100vh;
   min-height: 500px;
   padding-top: 50px;
@@ -41,6 +42,7 @@
  }
 
  #skills {
+   background-color: white;
     height: 100vh;
     min-height: 500px;
     padding-top: 50px;
@@ -54,6 +56,7 @@
  }
 
  #portfolio {
+    background-color: white;
     height: 100vh;
     min-height: 500px;
     padding-top: 50px; 
@@ -129,8 +132,14 @@
  */
 
  .aside-one {
+  color: whitesmoke;
   writing-mode: vertical-rl;
   text-orientation: upright;  
+  padding-left: 15px;
+ }
+
+ .aside-one p {
+  margin: -2px;
  }
 
  .icons {
@@ -140,9 +149,15 @@
   writing-mode: vertical-rl;
   text-orientation: mixed;
   font-size: 28px;
+  justify-content: flex-end;
+  padding-right: 15px;
  }
 
+ .social-icon {
+  text-decoration: none;
+ }
 .main-about {
+  color: whitesmoke;
   margin: auto 0;
   font-size: 48px;
 }
@@ -176,14 +191,19 @@
   flex-direction: row;
   justify-content: center;
 }
-/* TOOL TIP FOR HOME PAGE */
 
+.pointer {
+  text-align: right;
+  font-size: 24px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+}
 
 /*
  * ELEMENTS
  */
 
  body {
-   background-color: white;
+   /* background-color: #282a36; */
  }
  
